@@ -1,6 +1,6 @@
 # KD&Company - IT Services
 
-Welcome to **KD&Company**, a leading provider of innovative IT solutions. Our company offers a wide range of services tailored to help businesses grow through technology. From software development to IT consulting, we ensure high-quality, efficient, and cost-effective solutions to meet your needs.
+Welcome to the **KD&Company** project! This is a website that simulates the presence of an IT services company. It offers a wide range of technology solutions, showcasing various IT services such as web development, app development, IT consulting, and more. The project aims to demonstrate how businesses can leverage technology to grow and thrive.
 
 ## Table of Contents
 - [About Us](#about-us)
