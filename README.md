@@ -37,6 +37,7 @@ We leverage the latest technologies and tools to provide innovative solutions:
 - **Backend**: Node.js, Express.js
 - **Databases**: MongoDB, MySQL
 - **Cloud**: AWS, Google Cloud
+- **Blockchain**: Blockchain, Smart Contract, DeFi, NFT
 - **Version Control**: Git, GitHub
 - **DevOps Tools**: Docker, Jenkins
 
@@ -68,6 +69,10 @@ Now frontend will start o your server and open it in your browser.
 
 ## Contact Us
 For inquiries, please contact us:
+
+Email: kapildev5262@gmail.com
+
+Phone: 9509504256
 
 # Thank you!
 
