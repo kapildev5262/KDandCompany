@@ -48,3 +48,13 @@ To get started with KD&Company’s website, follow these steps:
    ```bash
    git clone https://github.com/kapildev5262/KDandCompany.git
 
+2.Install dependencies:
+   ```bash
+   npm install
+
+3.Start the development server:
+   ```bash
+   npm run dev
+
+now frontend will start o your server and open it in your browser.
+
