@@ -4,7 +4,6 @@ Welcome to **KD&Company**, a leading provider of innovative IT solutions. Our co
 
 ## Table of Contents
 - [About Us](#about-us)
-- [Services](#services)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
@@ -15,29 +14,13 @@ Welcome to **KD&Company**, a leading provider of innovative IT solutions. Our co
 
 KD&Company is an IT services firm specializing in providing cutting-edge solutions that drive business success. With a dedicated team of experts, we deliver customized technology solutions ranging from web development, application development, IT consulting, cloud solutions, and more. We are committed to providing exceptional service and value to our clients.
 
-## Services
 
-At **KD&Company**, we offer a variety of IT services, including but not limited to:
-
-- **Web Development**: Custom website design and development services.
-- **Mobile App Development**: Development of high-quality Android and iOS applications.
-- **Software Development**: End-to-end software development for all business needs.
-- **Cloud Solutions**: Scalable and secure cloud infrastructure and services.
-- **IT Consulting**: Expert advice on technology implementation and optimization.
-- **Cybersecurity Solutions**: Protecting your business from digital threats.
-- **Digital Marketing**: SEO, SEM, and social media management services.
 
 ## Technologies Used
 
 We leverage the latest technologies and tools to provide innovative solutions:
 
 - **Frontend**: HTML5, CSS3, JavaScript, React.js
-- **Backend**: Node.js, Express.js
-- **Databases**: MongoDB, MySQL
-- **Cloud**: AWS, Google Cloud
-- **Blockchain**: Blockchain, Smart Contract, DeFi, NFT
-- **Version Control**: Git, GitHub
-- **DevOps Tools**: Docker, Jenkins
 
 ## Getting Started
 
