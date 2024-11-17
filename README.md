@@ -9,8 +9,6 @@ Welcome to **KD&Company**, a leading provider of innovative IT solutions. Our co
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact Us](#contact-us)
 
 ## About Us
