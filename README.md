@@ -64,7 +64,10 @@ To get started with KD&Company’s website, follow these steps:
    npm run dev
 ```
 
-### Now frontend will start o your server and open it in your browser.
+Now frontend will start o your server and open it in your browser.
+
+## Contact Us
+For inquiries, please contact us:
 
 # Thank you!
 
