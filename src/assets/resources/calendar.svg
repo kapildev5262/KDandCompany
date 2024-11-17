@@ -1,0 +1,17 @@
+<svg id="calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.061" height="21.061" viewBox="0 0 21.061 21.061">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.013" stop-color="#00c5ff"/>
+      <stop offset="0.168" stop-color="#01c0fd"/>
+      <stop offset="0.335" stop-color="#06b3fa"/>
+      <stop offset="0.507" stop-color="#0f9ef4"/>
+      <stop offset="0.684" stop-color="#1b7fec"/>
+      <stop offset="0.861" stop-color="#2a59e1"/>
+      <stop offset="1" stop-color="#3836d8"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_5078" data-name="Path 5078" d="M16.673,1.755H15.8V.878a.878.878,0,0,0-1.755,0v.878H7.02V.878a.878.878,0,1,0-1.755,0v.878H4.388A4.393,4.393,0,0,0,0,6.143v10.53a4.393,4.393,0,0,0,4.388,4.388H16.673a4.393,4.393,0,0,0,4.388-4.388V6.143A4.393,4.393,0,0,0,16.673,1.755ZM1.755,6.143A2.633,2.633,0,0,1,4.388,3.51H16.673a2.633,2.633,0,0,1,2.633,2.633V7.02H1.755ZM16.673,19.306H4.388a2.633,2.633,0,0,1-2.633-2.633v-7.9h17.55v7.9A2.633,2.633,0,0,1,16.673,19.306Z" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_402" data-name="Ellipse 402" cx="1.316" cy="1.316" r="1.316" transform="translate(9.214 11.847)" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_403" data-name="Ellipse 403" cx="1.316" cy="1.316" r="1.316" transform="translate(4.826 11.847)" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_404" data-name="Ellipse 404" cx="1.316" cy="1.316" r="1.316" transform="translate(13.602 11.847)" fill="url(#linear-gradient)"/>
+</svg>

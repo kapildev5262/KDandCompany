@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="74" viewBox="0 0 74 74">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.013" stop-color="#00c5ff"/>
+      <stop offset="0.168" stop-color="#01c0fd"/>
+      <stop offset="0.335" stop-color="#06b3fa"/>
+      <stop offset="0.507" stop-color="#0f9ef4"/>
+      <stop offset="0.684" stop-color="#1b7fec"/>
+      <stop offset="0.861" stop-color="#2a59e1"/>
+      <stop offset="1" stop-color="#3836d8"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_600" data-name="Group 600" transform="translate(-842 -1713)">
+    <circle id="Ellipse_371" data-name="Ellipse 371" cx="37" cy="37" r="37" transform="translate(842 1713)" fill="url(#linear-gradient)"/>
+    <g id="Group_599" data-name="Group 599">
+      <path id="Path_5040" data-name="Path 5040" d="M2879.059,1755.65v-16.829H2861.72" transform="translate(-1990)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_5041" data-name="Path 5041" d="M2858.073,1760.276l19.962-20.427" transform="translate(-1990)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

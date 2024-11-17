@@ -1,0 +1,272 @@
+@media only screen and (max-width:1299px){
+	.header .navbar-nav > a{margin-left: 8px;}
+	.banner, .banner video{height: 824px;}
+	.bannerDetails{width: 90%;}
+	.bannerDetails h1{font-size:56px; line-height: 74px;}
+	.bannerDetails p{font-size: 24px; font-weight: 400}
+	.area2 .text h3 br{display: none;}
+	.aboutImg .workYears{left:-125px;}
+	.dteLayout p a{display: inline-block;}
+
+	.bannLeftText h1 {    font-size: 60px;    line-height: 75px;}
+	.bannLeftText h1 br{display: none;}
+	.row1 {    position: relative;    right: 0;    justify-content: flex-start;    width: 100%;}
+	.customers{    margin: 0px 20px 0px 0px;}
+	.bannLeftText .friction{width: 50%;}
+	.btbImg {    gap: 50px;    margin-top: 40px;}
+	.btbImg > img{height: 70px;}
+	.servBanText h1{font-size: 51px}
+	.servBanText{padding: 50px 0px;}
+	.servBanImg{height: 68%;    right: -10%;    width: auto;}
+	.servBanImg img{width: 100%;    position: relative;    bottom: -25px;    height: 100%;}
+	.ltext{width: 80%;}
+	.ltext .sTitleText h2{font-size: 36px;}
+	.area2 .text h3{font-size: 42px;}
+
+}
+
+@media only screen and (max-width:1199px){
+	.bannerDetails h1{font-size: 45px; line-height: 60px;}
+	.bannerDetails p{    font-size: 24px; margin: 20px 0px 45px;}
+	h3.mainHead{font-size: 34px; line-height: 44px;}
+	.mainHead + .subHead{font-size: 22px;    line-height: 32px;}
+	.aboutImg{margin-bottom: 50px;}
+	.header button.navbar-toggler {    background: #fff;}
+	.navbar-collapse{background: #fff;}
+	.header .navbar-nav > a{width: 100%; color: #000 !important; padding: 15px 20px; border-bottom: 1px solid #ccc;}
+	.header .navbar-nav button.btn{display: none;}
+
+	.pageTitle2{font-size:42px; line-height:55px;}
+	.dteLayout p.minH{min-height:auto;}
+
+	.abt_ourStory h4{font-size: 24px; line-height: 38px;}
+	.stryText img{width: 100%;}
+	.stryDet > div{font-size: 22px; line-height: 26px; font-weight: 700;}
+	.stryDet > p{line-height: 24px}
+	.abt_mission p{line-height: 28px;}
+	.missionImg img{width: 65%;}
+	.teamDesc h4{font-weight: 600; font-size: 20px;}
+	.teamDesc p{font-size: 16px;}
+	.pageTitle2 sub{font-size: 16px; font-weight: 500;}
+	.insightDet .dte{font-size: 16px;}
+	.insightDet h4{font-size: 20px;}
+	.innerCTAForm .pageTitle2{font-size: 32px; line-height: 40px;}
+	.innerCTAForm .pageTitle2 + p br{display: none;}
+	.formCTA{padding: 30px;}
+	.formCTA:after{border-bottom: 25px solid #601CD8; border-right: 30px solid #F6F9FF;}
+	.reviewText:before{border-bottom: 379px solid #fff;}
+	.bannLeftText h1 {    font-size: 52px;    line-height: 65px;}
+	.bannLeftText .friction {    width: 40%;}
+	
+
+	.res_text h1 {    font-size: 45px;    line-height: 55px;}
+	.tabFilter ul.nav-tabs .nav-item button{padding: 10px 18px;}
+	.filterContent .dateView ul{gap: 10px;}
+	.formSubscribe{flex-wrap: wrap; gap: 10px;}
+	.enterEmail, .subBtn{width: 100%;}
+	.subBtn button{width: 50%;}
+
+	.servBanText h1{font-size: 40px; line-height: 50px;}
+	.servBanImg{right: -18%;}
+	.servicesHeading {    display: flex;    align-items: center;    justify-content: space-between;    width: 100%;}
+
+	.navbar-toggler{display:block !important;}
+	nav.navbar > .container{flex-wrap: wrap;}
+	.navbar-expand-lg .navbar-collapse{    flex-basis: 100%;}
+	.navbar-nav1{width: 100%; display: block;}
+	.navbar-expand-lg .navbar-nav{flex-direction: column;}
+	.workBanner .row1{left: 0px;}
+	.workBanner .bannLeftText .friction{width: 44%;}
+
+	.ltext .sTitleText h2{line-height: 36px; font-size: 26px;}
+	.collapse:not(.show) {    display: none !important;}
+
+	.reviewText p{font-size: 15px; line-height: 26px; font-weight: 400;}
+	.reviews .reviewArea .reviewSlide .owl-nav {    padding-left: 11%;}
+
+	.banner, .banner video {    height: 750px;}
+	.videoArea video{height: 400px;}
+	.area2 .text {    transform: translate(0%, 0%);    top: 0;    left: 0;    padding: 80px 7%;    height: 100%;    display: flex;    align-items: center;    justify-content: center;}
+	.video div.text p, .video div.text button{opacity: 1; transform: translate(0,0px);}
+	.area2 .text h3{line-height: 46px; font-weight: 700; font-size: 36px;}
+	.area2 .text p{font-size: 24px;     line-height: 36px; margin: 10px 0px 25px;}
+	.carousel-items a.arrowNext{    bottom: 95px;}
+	.aboutImg .workYears{bottom: -25px; transform: rotate(0deg); left:0px;}
+
+}
+
+@media only screen and (max-width:991px)
+{
+	.bannerDetails h1 {	    font-size: 42px;	    line-height: 58px;	}
+	.videoArea video{height: 350px;}
+	.area1 .text h3, .area2 .text h3, .area3 .text h3{line-height: 40px; font-size: 30px;}
+	.area2 .text p{margin: 15px 0px 30px; font-size: 22px;    line-height: 29px;}
+	h3.mainHead{font-size: 26px; line-height: 38px;}
+	.mainHead + .subHead{line-height: 28px; font-size: 18px;}
+	.mainHead + .subHead br{display:none; }
+	.customerImg .cText h4{    font-size: 26px;    line-height: 34px;}
+	.reviewArea{border-radius: 50px;}
+	.reviewArea h2 {	    font-size: 80px;	    top: -52px;	}
+	.reviewText{padding: 40px 40px; text-align:start;}
+	.talkText p br{display: none;}
+	.itemTop .dateShare{display: none;}
+	.itemTop .itemImg{width: 100%;}
+	.itemBottom{padding: 20px 0px;}
+	.inquiryEmail {    position: relative;    margin: 20px 0px;}
+	.fAddress ul{display: flex;    align-items: center;    gap:50px; margin-bottom: 30px;}
+	.fAddress ul li{margin: 0px;}
+	.talkText h2{font-size: 30px;}
+	.menImg{bottom: -60px;}
+
+	.pt-175{padding-top: 150px;}
+	.pageTitle2 sub{display: block; margin: 0px;}
+	.reviewText p{font-size: 16px; line-height: 25px;}
+	.innerCTAForm .pageTitle2 {    font-size: 24px;    line-height: 32px;}
+	.innerCTAForm .pageTitle2 br{display: none;}
+	.bannerImg{text-align: center;}
+	.bannerImg img {width: 70%;    height: auto;    margin: 0 auto;}
+	.btbImg > img{height: 110px;}
+	.bannLeftText .friction {    width: 40%;}
+	.res_bann{padding-top: 50px;}
+	.BannGirlImg{text-align: right;}
+	.res_text h1 br{display: none;}
+	.BannGirlImg img {    margin-top: -150px;}
+	.tabFilter ul.nav-tabs{justify-content: center;}
+
+	.servBanText{		padding: 0px; margin-top:40px;	}
+	.serviceBannSec > .container > .row{flex-direction: column-reverse;}
+	.servBanImg{width: 100%; height: auto; position: relative; right: -5%;}
+	.servBanText h1 br{display: none;}
+	.btbImg{margin-top: 16px;}
+	.workBanner > .container > .row{flex-direction: column-reverse;}
+	.bannLeftText{padding-bottom: 0px;}
+	.workBanner{    background-size: auto 100%;}
+	.bestServImg{margin-bottom: 30px;}
+
+	.reviewText{padding-left: 0px;}
+	.reviews .reviewArea .reviewSlide .owl-nav {    padding-left: 0;    text-align: center;}
+	.aboutImg{margin-bottom: 10px;}
+	.aboutImg .workYears {display: none;}
+	.aboutImg img{width: 100%;}
+	.reviewText{    padding: 0px 40px 20px 0px;}
+	.caseItem{padding: 20px;}
+
+
+}
+
+@media only screen and (max-width:767px){
+	.bannerDetails .labelTitle{font-size: 20px; line-height: normal; padding: 15px 25px;     margin-bottom: 15px;}
+	.bannerDetails p br{display: none;}
+	.area4 .text{top: 65%;}
+	.area1 .text h3, .area2 .text h3, .area3 .text h3 {    line-height: normal;    font-size: 26px;}
+	.area2 .text p{font-size: 18px;}
+	.blockText {    text-align: center;    margin-top: 30px;}
+	.customerImg .cText h4{font-size: 22px; line-height: normal;}
+	.customerImg .cText p br{display: none;}
+	.customerImg .cText {  top: 0;    left: 0;    padding: 25px;}
+	.aboutImg .workYears{left: 0px; transform: rotate(0); position: static;}
+	.fLinks{margin-top: 30px;}
+	.fLinks h4{line-height: normal;}
+
+	.pt-175{padding-top: 125px;}
+	.dteLayout p.minH {    min-height: 130px;}
+	.getInTouch{padding: 35px;}
+	.pageTitle2 {    font-size: 28px;    line-height: normal; padding-right: 20px;}
+	.pageTitle3{font-size: 24px;}
+
+	.reviewImg, .reviewText{width: 100%;}
+	.formCTA{margin-top: 0px;}
+	.reviewImg img{height: auto;}
+	.bannLeftText h1 {    font-size: 45px;    line-height: 55px;}
+	.bannLeftText .friction {    width: 50%;}
+	.subsInside{padding: 40px;}	
+	.BannGirlImg{text-align: center;}
+	.BannGirlImg img {    margin-top: 0;    width: 60%;}
+	.res_text h1 {    font-size: 35px;    line-height: 45px;}
+	.tabFilter ul.nav-tabs{gap: 10px;}
+	.tabFilter ul.nav-tabs .nav-item button{background: #f7f7f7;}
+	.arrowLink{width: 80px; height: 80px;}
+	.arrowLink a{    width: 40px;    height: 40px; font-size: 18px; position: relative; top: -2px;    left: -3px;}
+	.insightDet{padding: 20px 0px;}
+
+	.servBanImg{right: 0;}
+	.servicesHeading{flex-wrap: wrap;}
+	.servicesHeading button{display: none;}
+	.onMobile {    display: block;}
+	.emailIdBlock button{width: 100%;     top: 15px; right: 0; width: 100%; position: relative;}
+	.servicesHeading br{display: none;}
+	.reviewArea{border-radius: 30px;}
+	.workProject .insightImg img{    border-width: 20px 20px 0px 20px;}
+	.innerTesti .reviewImg{width: 100%;}
+	.innerTesti .reviewImg img{height: auto;}
+	.innerTesti .reviewText{width: 100%; padding: 30px}
+
+	.reviewText {    padding: 40px;    text-align: center;}
+	.bannerDetails h1{font-weight: 600;}
+	.bannerDetails h1 br{display: none;}
+	.reviewArea h2 {    font-size: 58px;    top: -36px;}
+	.caseItem{padding: 40px;}
+	.kuboBlogs .owl-nav{position: static; width: 100%; text-align: center; margin-top: 25px;}
+
+	
+}
+
+@media only screen and (max-width:575px){
+	.header .callNow{display: none;}
+	.bannerDetails{top: 44%;}
+	.area1 .text, .area2 .text.text-center{padding: 50px;}
+	
+	.area4 .text{top:52%; padding: 50px;}
+	.videoArea .text{padding: 50px;}
+	.aboutText h2, .headLink h2{font-size: 32px; line-height: normal;}
+	.reviewArea h2 {    font-size: 36px;    top: -23px}
+	.menImg {    bottom: -60px;    text-align: center; position: relative;}
+	.menImg img {    width: 60%;}
+	.footer{padding: 0px 15px;}
+	.fAddress ul{gap: 20px; flex-wrap: wrap;}
+	.fAddress ul li{width: 100%;}
+	.lLinks{justify-content: flex-start;}
+	.lLinks li {    width: 50%;    margin-top: 10px;}
+
+	.pageTitle2 {    font-size: 26px;    line-height: 36px;}
+	.pageTitle3{font-size:20px;}
+	.dteLayout p.minH{min-height:auto;}
+	.getInTouch {    padding: 30px;}
+
+	.abt_ourStory h4{font-size: 20px; line-height: 30px;}
+	.stryDet > div{font-size: 18px; line-height: 24px;}
+	.liveCounter > div{font-size: 26px;}
+	.liveCounter > div:before{width: 30px;     height: 30px;}
+	.liveCounter > label{font-size: 14px;}
+	.insightHead{flex-wrap: wrap;}
+	.insightHead button{display: none;}
+	.reviewText{padding: 25px;}
+	.innerCTAForm{padding:35px 25px;}
+	.innerCTAForm{border-radius:20px;}
+	.innerCTAForm .pageTitle2{font-size: 22px;}
+	.formCTA:before{right: -15px;  top: -15px; width: 40px; height: 40px;}
+
+	.bannLeftText h1 {    font-size: 35px;    line-height: 48px;}
+	.btbImg > img{display: none;}
+	.bannLeftText .friction {    width: 100%;    margin-top: 20px;}
+
+	.subBtn button {    width: 100%;}
+	.subsInside {    padding: 35px;}
+	.subsText h4{font-size: 24px; line-height: 30px;}
+	.subsText p{font-size: 15px; line-height: 22px;}
+
+	.res_text h1{font-size: 30px; line-height: 35px;}
+	.BannGirlImg img{width: 80%;}
+
+	.servBanText h1 {    font-size: 32px;    line-height: 40px;}
+	.bannerImg img{width: 80%}
+	.workBanner .bannLeftText .friction{width: 100%;}
+	.btbImg{margin-top: 30px;}
+	.sTitleText {    padding-right: 10px;}
+
+	.reviews .reviewArea .reviewItem{		margin-top: 30px;	}
+	.bannerDetails h1 {    font-size: 38px;    line-height: 55px;}
+	.bannerDetails p{font-size: 18px; line-height: 28px;}
+	.inquiry h2{font-size: 32px;}
+}
+

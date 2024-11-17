@@ -1,0 +1,364 @@
+.header .logoCover {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.m1 {
+  display: flex;
+  align-items: center;
+}
+
+/* New submenu that appears on the right */
+.sub-dropdown-menu {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 15px;
+  background-color: white;
+  /* border-radius: 5px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu2 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 41px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+
+.sub-dropdown-menu3 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 67px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu4 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 93px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu5 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 119px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu6 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 145px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu7 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 171px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu8 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 197px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu9 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 223px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu10 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 249px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu11 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 275px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu12 {
+  position: absolute;
+  left: 250px; /* Adjust based on the width of your primary dropdown */
+  top: 301px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+
+.sub-dropdown-menu1a {
+  position: absolute;
+  left: 200px; /* Adjust based on the width of your primary dropdown */
+  top: 20px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu1b {
+  position: absolute;
+  left: 200px; /* Adjust based on the width of your primary dropdown */
+  top: 70px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu1c {
+  position: absolute;
+  left: 200px; /* Adjust based on the width of your primary dropdown */
+  top: 130px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu1d {
+  position: absolute;
+  left: 200px; /* Adjust based on the width of your primary dropdown */
+  top: 185px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu1e {
+  position: absolute;
+  left: 200px; /* Adjust based on the width of your primary dropdown */
+  top: 240px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu1f {
+  position: absolute;
+  left: 200px; /* Adjust based on the width of your primary dropdown */
+  top: 295px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.sub-dropdown-menu1g {
+  position: absolute;
+  left: 200px; /* Adjust based on the width of your primary dropdown */
+  top: 230px;
+  background-color: white;
+  padding-left: 20px;
+  min-width: 200px; /* Adjust as needed */
+  z-index: 1000;
+}
+.dropdown-submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropdown-submenu li {
+  margin: 10px 0;
+  position: relative;
+}
+
+.dropdown-submenu li:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.dropdown-submenu a {
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-submenu a:hover {
+  color: #ff6e9e;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  z-index: 1000;
+}
+
+/* Responsive Adjustments for Tablets and Smaller Screens */
+@media (max-width: 1024px) {
+  .dropdown-submenu {
+    font-size: 13px; /* Reduce font size slightly */
+  }
+}
+
+/*Responsive Adjustments for Mobile Screens*/
+@media (max-width: 768px) {
+  .dropdown-submenu li {
+    margin: 5px 0; /* Decrease vertical space */
+  }
+
+  .dropdown-submenu {
+    font-size: 12px; /* Smaller font for mobile */
+  }
+}
+
+/* Responsive Adjustments for Extra Small Screens */
+@media (max-width: 580px) {
+  .sub-dropdown-menu {
+    left: 180px;
+    min-width: 120px;
+    top: 40px;
+  }
+
+  .sub-dropdown-menu2 {
+    left: 180px;
+    min-width: 120px;
+    top: 65px;
+  }
+
+  .sub-dropdown-menu3 {
+    left: 180px;
+    min-width: 120px;
+    top: 88px;
+  }
+
+  .sub-dropdown-menu4 {
+    left: 180px;
+    min-width: 120px;
+    top: 117px;
+  }
+
+  .sub-dropdown-menu5 {
+    left: 180px;
+    min-width: 120px;
+    top: 146px;
+  }
+
+  .sub-dropdown-menu6 {
+    left: 180px;
+    min-width: 120px;
+    top: 175px;
+  }
+
+  .sub-dropdown-menu7 {
+    left: 180px;
+    min-width: 120px;
+    top: 200px;
+  }
+
+  .sub-dropdown-menu8 {
+    left: 180px;
+    min-width: 120px;
+    top: 225px;
+  }
+
+  .sub-dropdown-menu9 {
+    left: 180px;
+    min-width: 120px;
+    top: 250px;
+  }
+
+  .sub-dropdown-menu10 {
+    left: 180px;
+    min-width: 120px;
+    top: 275px;
+  }
+  .sub-dropdown-menu11 {
+    left: 180px;
+    min-width: 120px;
+    top: 305px;
+  }
+  .sub-dropdown-menu12 {
+    left: 180px;
+    min-width: 120px;
+    top: 330px;
+  }
+  .sub-dropdown-menu1a {
+    left: 160px;
+    min-width: 120px;
+    top: 30px;
+  }
+  .sub-dropdown-menu1b {
+    left: 160px;
+    min-width: 120px;
+    top: 84px;
+  }
+  .sub-dropdown-menu1c {
+    left: 160px;
+    min-width: 120px;
+    top: 138px;
+  }
+  .sub-dropdown-menu1d {
+    left: 160px;
+    min-width: 120px;
+    top: 192px;
+  }
+  .sub-dropdown-menu1e {
+    left: 160px;
+    min-width: 120px;
+    top: 244px;
+  }
+  .sub-dropdown-menu1f {
+    left: 160px;
+    min-width: 120px;
+    top: 298px;
+  }
+  .sub-dropdown-menu1g {
+    left: 160px;
+    min-width: 120px;
+    top: 180px;
+  }
+
+  .dropdown-submenu {
+    font-size: 11px;
+  }
+
+  .dropdown-submenu li {
+    margin: 3px 0;
+  }
+}

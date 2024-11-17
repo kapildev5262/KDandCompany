@@ -1,0 +1,30 @@
+.socialMedia {
+  margin: 0 65% 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-rows: repeat(2, auto); /* Two rows */
+  gap: 15px; /* Reduced gap between icons */
+  justify-items: center;
+  padding: 20px 0;
+}
+
+.socialMedia a {
+  flex: 1 1 45%; /* Each icon will take up roughly half the width, allowing two per row */
+  display: flex;
+  justify-content: center;
+}
+
+.socialMedia img {
+  width: 35px;
+  height: 35px;
+}
+
+.socialMedia a:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+@media (max-width: 500px) {
+  .socialMedia a {
+    flex: 1 1 100%; /* Stack icons in a single column on small screens */
+  }
+}
