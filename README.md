@@ -7,7 +7,6 @@ Welcome to the **KD&Company** project! This is a website that simulates the pres
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contact Us](#contact-us)
 
 ## About the Project
