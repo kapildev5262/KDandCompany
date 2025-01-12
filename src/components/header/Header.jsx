@@ -41,9 +41,9 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="#contact" className="btn-primary">
-            Contact
-          </a>
+          <Link className="btn-primary" to={"/careers/"}>
+            Careers
+          </Link>
         </li>
       </ul>
     </header>

@@ -1,0 +1,66 @@
+/* JD.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* General styles */
+
+.job-application-container {
+  padding-top: 100px;
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Default to row direction */
+  margin: 20px;
+  gap: 20px; /* Space between the two sections */
+}
+
+.job-description {
+  flex: 1; /* Allow this section to grow */
+  min-width: 300px; /* Minimum width to prevent squishing */
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional: background color for better visibility */
+  border: 1px solid #ccc; /* Optional: border for separation */
+}
+
+.application-form-container {
+  flex: 1; /* Allow this section to grow */
+  min-width: 300px; /* Minimum width to prevent squishing */
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional: background color for better visibility */
+  border: 1px solid #ccc; /* Optional: border for separation */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .heading_query {
+    font: 30px "Open Sans", sans-serif;
+    left: 0%;
+    padding: 0 10px;
+    padding-top: 7rem;
+  }
+
+  .job-application-container {
+    flex-direction: column; /* Stack sections on smaller screens */
+  }
+
+  .application-form-container {
+    margin-top: 20px; /* Space between sections when stacked */
+  }
+}
+
+/* Additional styles */
+h2 {
+  color: #333; /* Heading color */
+}
+
+ul {
+  list-style-type: disc; /* Bulleted list style */
+}

@@ -1,0 +1,262 @@
+/* Careers Container */
+.careers-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Background Section */
+.background1 {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: 100%;
+  position: relative;
+}
+
+.background1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.heading1 {
+  top: 25vh;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  z-index: 2;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.heading1 h1 {
+  font-size: 40px;
+}
+
+.heading1 p {
+  font-size: 24px;
+  padding: 0 10px;
+  text-align: left;
+}
+.careers-container a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 0.8rem;
+  margin-bottom: 40px;
+}
+
+.careers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.career-card {
+  position: relative;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  height: 240px;
+  width: 320px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+/* Create sliding background effect */
+.career-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0; /* Initially hidden */
+  background: linear-gradient(90deg, rgba(0, 197, 255, 1) 0%, rgba(56, 54, 216, 1) 100%);
+  transition: height 0.5s ease;
+  z-index: 0; /* Keep the background behind the content */
+}
+
+.career-card:hover::before {
+  height: 100%; /* Slide down to cover the entire card */
+  color: rgb(38, 177, 241);
+}
+
+.career-card .card-content {
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+.career-card:hover .card-content {
+  opacity: 0; /* Hide text content on hover */
+}
+
+/* Smooth transition for the Apply Now section */
+.apply-for-job {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.career-card:hover .apply-for-job {
+  opacity: 1;
+  visibility: visible; /* Smoothly show "Apply Now" button on hover */
+}
+
+/* Job Apply Section */
+.job-apply {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* Insights Section */
+.insights-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.subscribe-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.latest-blog-posts {
+  flex: 2;
+}
+
+.latest-blog-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.latest-blog-posts h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .career-card {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  .insights-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .subscribe-form {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .latest-blog-posts {
+    flex: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .career-card:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+
+  .career-card:hover .apply-for-job {
+    display: block;
+  }
+}
+@media (max-width: 512px) {
+  .heading1 h1 {
+    font-size: 30px;
+  }
+
+  .heading1 p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+
+  .latest-blog-posts h3 {
+    font-size: 1.1rem;
+  }
+
+  .career-card {
+    width: 300px;
+    height: auto;
+  }
+}
+
+/* Styles for the search input */
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f8f9fa;
+  transition: border-color 0.3s;
+}
+
+/* Styles for the search input on focus */
+.search-input:focus {
+  outline: none;
+  border-color: #0056b3;
+  background-color: #ffffff;
+}
+
+/* Styles for placeholder text */
+.search-input::placeholder {
+  color: #aaa;
+  opacity: 1;
+}

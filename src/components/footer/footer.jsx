@@ -28,20 +28,19 @@ const Footer = () => {
                 <li>
                   <span>
                     <img src={skype} />
+                    <a href="#/">KDcomapany.Skype</a>
                   </span>
-                  <a href="#/">KDcomapany.Skype</a>
                 </li>
                 <li>
                   <span>
-                    <img src={phone} />
+                    <img src={phone} /> <a href="tel:+919509504256">+91-9509504256</a>
                   </span>
-                  <a href="tel:+919509504256">+91-9509504256</a>
                 </li>
                 <li>
                   <span>
                     <img src={mail} />
+                    <a href="#">kapildev5262@gmail.com</a>
                   </span>
-                  <a href="#">kapildev5262@gmail.com</a>
                 </li>
               </ul>
             </div>
@@ -77,34 +76,16 @@ const Footer = () => {
                   <Link to={"/services/mobile-apps-development/"}>Mobile Apps Development</Link>
                 </li>
                 <li>
-                  <Link to={"/services/salesforce-development/"}>Salesforce Development</Link>
-                </li>
-                <li>
                   <Link to={"/services/blockchain-development/"}>Blockchain Development</Link>
                 </li>
                 <li>
                   <Link to={"/services/emerging-tech/"}>Emerging Tech</Link>
                 </li>
                 <li>
-                  <Link to={"/services/prototyping-&-ui-ux/"}>Prototyping & UI/UX</Link>
-                </li>
-                <li>
-                  <Link to={"/solutions/dashboard/"}>Dashboard Development </Link>
-                </li>
-                <li>
-                  <Link to={"/services/product-engineering/"}>Product Engineering</Link>
-                </li>
-                <li>
-                  <Link to={"/services/automation/"}>Automation</Link>
-                </li>
-                <li>
                   <Link to={"/services/custom-framework/"}>Custom Framework</Link>
                 </li>
                 <li>
                   <Link to={"/services/digital-marketing/"}>Digital Marketing</Link>
-                </li>
-                <li>
-                  <Link to={"/services/enterprise-digital-transformation/"}>Enterprise Digital Transformation</Link>
                 </li>
               </ul>
             </div>
@@ -131,33 +112,6 @@ const Footer = () => {
                 <li>
                   <Link to={"/industries/retail/"}>Retail </Link>
                 </li>
-                <li>
-                  <Link to={"/industries/transpotation/"}>Transpotation </Link>
-                </li>
-                <li>
-                  <Link to={"/industries/food&beverages/"}>Food & Beverages </Link>
-                </li>
-                <li>
-                  <Link to={"/industries/energy-mining/"}>Energy & Mining </Link>
-                </li>
-                <li>
-                  <Link to={"/industries/media-&-entertainment/"}>Media & Entertainment</Link>
-                </li>
-                <li>
-                  <Link to={"/industries/manufacturing/"}>Manufacturing </Link>
-                </li>
-                <li>
-                  <Link to={"/industries/automotive/"}>Automotive</Link>
-                </li>
-                <li>
-                  <Link to={"/industries/real-estate/"}>Real-Estate</Link>
-                </li>
-                <li>
-                  <Link to={"/industries/bfsi/"}>BFSI</Link>
-                </li>
-                <li>
-                  <Link to={"/industries/technology/"}>Technology</Link>
-                </li>
               </ul>
             </div>
           </div>
@@ -166,7 +120,6 @@ const Footer = () => {
               <h4>Our Solutions</h4>
               <ul>
                 <li>
-                  {/* <Link to={"/decentralised/0"}>Decentralised Finance</Link> */}
                   <Link to={"/solutions/blockchain/decentralised-finance/"}>Decentralised Finance</Link>
                 </li>
                 <li>
@@ -182,19 +135,7 @@ const Footer = () => {
                   <Link to={"/solutions/blockchain/enterprise-blockchain/"}>Enterprice Blockchain</Link>
                 </li>
                 <li>
-                  <Link to={"/solutions/workforce-assignment/"}>Workforce Assignment</Link>
-                </li>
-                <li>
-                  <Link to={"/services/ecommerce/"}>E-Commerce</Link>
-                </li>
-                <li>
                   <Link to={"/solutions/iot/"}>IOT</Link>
-                </li>
-                <li>
-                  <Link to={"/services/cloud&devops/"}>Cloud & Devops</Link>
-                </li>
-                <li>
-                  <Link to={"/solutions/testing/"}>Testing & QA</Link>
                 </li>
               </ul>
             </div>
