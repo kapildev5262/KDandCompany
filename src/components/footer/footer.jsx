@@ -28,19 +28,20 @@ const Footer = () => {
                 <li>
                   <span>
                     <img src={skype} />
-                    <a href="#/">KDcomapany.Skype</a>
                   </span>
+                  <a href="#/">KDcomapany.Skype</a>
                 </li>
                 <li>
                   <span>
-                    <img src={phone} /> <a href="tel:+919509504256">+91-9509504256</a>
-                  </span>
+                    <img src={phone} />
+                  </span>{" "}
+                  <a href="tel:+919509504256">+91-9509504256</a>
                 </li>
                 <li>
                   <span>
                     <img src={mail} />
-                    <a href="#">kapildev5262@gmail.com</a>
                   </span>
+                  <a href="#">kapildev5262@gmail.com</a>
                 </li>
               </ul>
             </div>
