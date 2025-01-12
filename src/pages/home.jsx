@@ -318,11 +318,8 @@ const Main = () => {
                       service. Their team truly understands our needs and consistently delivers results that drive our
                       business forward.
                     </p>
-                    <div className="nameCmpny">
-                      <div className="clientImg"></div>
-                      <div className="clientName">
-                        <h5>- Sarah</h5>
-                      </div>
+                    <div className="clientName">
+                      <h5>- Sarah</h5>
                     </div>
                   </div>
                 </div>
@@ -339,11 +336,8 @@ const Main = () => {
                       customer satisfaction and their ability to adapt to our evolving needs have made them a trusted
                       partner in our success.
                     </p>
-                    <div className="nameCmpny">
-                      <div className="clientImg"></div>
-                      <div className="clientName">
-                        <h5>- John</h5>
-                      </div>
+                    <div className="clientName">
+                      <h5>- John</h5>
                     </div>
                   </div>
                 </div>
@@ -360,11 +354,8 @@ const Main = () => {
                       helped us streamline our processes and implement technology solutions that have improved
                       efficiency and productivity across the board.
                     </p>
-                    <div className="nameCmpny">
-                      <div className="clientImg"></div>
-                      <div className="clientName">
-                        <h5>- Emily</h5>
-                      </div>
+                    <div className="clientName">
+                      <h5>- Emily</h5>
                     </div>
                   </div>
                 </div>
